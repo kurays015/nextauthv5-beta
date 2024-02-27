@@ -1,11 +1,11 @@
 import Google from "../components/Google";
 import Github from "../components/Github";
-import { credentials } from "../../../actions/action";
+// import { credentials } from "../../../actions/action";
 
 export default function Signin() {
   return (
     <div>
-      <form action={credentials}>
+      <form>
         <label>username</label>
         <input
           type="text"
